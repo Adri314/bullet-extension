@@ -4,13 +4,13 @@
 * Read more at https://arcade.makecode.com/blocks/custom
 */
 
-
-
 enum MyEnum {
-    //% block="Bullet"
-    Bullet,
-    //% block="Enemy Bullet"
-    EnemyBullet
+    //% block="Projectile"
+    Projectile,
+    //% block="Food"
+    Food,
+    //% block="Enemy"
+    Enemy
 }
 
 /**
@@ -70,9 +70,11 @@ namespace bullets {
         let projectile = sprites.createProjectileFromSprite(myBullet, spr, Math.sin(angle * 0.0174533) * spd, Math.cos(angle * 0.0174533) * spd)
         
         if (e==0) {
-            projectile.setKind(SpriteKind.Bullet)
+            projectile.setKind(SpriteKind.Projectile)
+        } else if (e == 1) {
+            projectile.setKind(SpriteKind.Food)
         } else {
-            projectile.setKind(SpriteKind.EnemyBullet)
+            projectile.setKind(SpriteKind.Enemy)
         }
     }
 
