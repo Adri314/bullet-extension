@@ -7,7 +7,7 @@
 /**
  * Custom blocks
  */
-//% weight=100 color=#808080 icon="\uf062"
+//% weight=100 color=#FFA500 icon="\uf062"
 namespace bullets {
     /**
    * This function shoots a bullet with the image selected 
