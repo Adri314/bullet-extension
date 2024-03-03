@@ -8,24 +8,26 @@
  * Custom blocks
  */
 //% weight=100 color=#FFA500 icon="\uf062"
-namespace bullets {
+namespace bullets {    
     /**
-   * This function shoots a bullet with the image selected 
-   * from a sprite in the game to another sprite
-   * with chosen speed
-   * myBullet: bullet image. Create a variable to store an image and use it here
-   * spr: the sprite from which the bullet shoots
-   * spr2: the target sprite
-   * spd: the bullet speed
-   * k: bullet kind. Drag kind block
-   */
+    * This function shoots fan of bullets with the image selected
+    * from a sprite in the game
+    * a number of times around the sprite
+    * with chosen speed
+    * myBullet: bullet image. Create a variable to store an image and use it here
+    * spr: the sprite from which the bullet shoots
+    * n: number of bullets
+    * initAng: initial angle of the fan
+    * endAng: final angle of the fan
+    * spd: the bullet speed
+    * k: bullet kind. Drag kind block
+    */
     //% block
-    export function aimedShotFromSpriteToSpriteWithSpeed(myBullet: any, spr: Sprite, spr2: Sprite, spd: number, k: any): void {
-        let ang = Math.atan2(spr2.x - spr.x, spr2.y - spr.y) / 0.0174533
-        shootBulletFromSpriteAtAngleWithSpeed(myBullet, spr, ang, spd, k)
-
+    export function fanBurstFromSprite(myBullet: any, spr: Sprite, n: number, initAng: number, endAng: number, spd: number, k: any): void {
+        for (let i = initAng; Math.floor(i) <= endAng; i += (endAng-initAng)/(n-1)) {
+            shootBulletFromSpriteAtAngleWithSpeed(myBullet, spr, i, spd, k)
+        }
     }
-    
     /**
     * This function shoots a bullet with the image selected
     * from a sprite in the game
@@ -43,6 +45,22 @@ namespace bullets {
         for (let i = 0; i < n; i++) {
             shootBulletFromSpriteAtAngleWithSpeed(myBullet, spr, i*360/n, spd, k)
         }
+    }
+
+    /**
+    * This function shoots a bullet with the image selected 
+    * from a sprite in the game to another sprite
+    * with chosen speed
+    * myBullet: bullet image. Create a variable to store an image and use it here
+    * spr: the sprite from which the bullet shoots
+    * spr2: the target sprite
+    * spd: the bullet speed
+    * k: bullet kind. Drag kind block
+    */
+    //% block
+    export function aimedShotFromSpriteToSpriteWithSpeed(myBullet: any, spr: Sprite, spr2: Sprite, spd: number, k: any): void {
+        let ang = Math.atan2(spr2.x - spr.x, spr2.y - spr.y) / 0.0174533
+        shootBulletFromSpriteAtAngleWithSpeed(myBullet, spr, ang, spd, k)
     }
 
     /**
