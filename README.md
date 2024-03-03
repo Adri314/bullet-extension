@@ -29,28 +29,28 @@ This image may take a few minutes to refresh.
 
 ## Parameter Explanation by function
 
-# Function shootBulletFromSpriteAtAngleWithSpeed:
+### Function shootBulletFromSpriteAtAngleWithSpeed:
 * myBullet: bullet image. Create a variable to store an image and use it here
 * spr: the sprite from which the bullet shoots
 * angle: angle of bullet (0 is down, 180 is up)
 * spd: the bullet speed
 * k: bullet kind. Drag kind block
 
-# Function aimedShotFromSpriteToSpriteWithSpeed:
+### Function aimedShotFromSpriteToSpriteWithSpeed:
 * myBullet: bullet image. Create a variable to store an image and use it here
 * spr: the sprite from which the bullet shoots
 * spr2: the target sprite
 * spd: the bullet speed
 * k: bullet kind. Drag kind block
 
-# Function starBurstFromSprite:
+### Function starBurstFromSprite:
 * myBullet: bullet image. Create a variable to store an image and use it here
 * spr: the sprite from which the bullet shoots
 * n: number of bullets
 * spd: the bullet speed
 * k: bullet kind. Drag kind block
 
-# Function fanBurstFromSprite:
+### Function fanBurstFromSprite:
 * myBullet: bullet image. Create a variable to store an image and use it here
 * spr: the sprite from which the bullet shoots
 * n: number of bullets
@@ -59,7 +59,7 @@ This image may take a few minutes to refresh.
 * spd: the bullet speed
 * k: bullet kind. Drag kind block
 
-# Example: 
+## Example: 
 
 
 ![arcade-screenshot (3)](https://github.com/Adri314/bullet-extension/assets/34138145/6fc82f06-2d5e-42f8-aafd-0f27a6a59a17)
