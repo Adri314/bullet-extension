@@ -4,10 +4,7 @@
 * Read more at https://arcade.makecode.com/blocks/custom
 */
 
-namespace SpriteKind {
-    export const EnemyBullet = SpriteKind.create()
-    export const Bullet = SpriteKind.create()
-}
+
 
 enum MyEnum {
     //% block="Bullet"
