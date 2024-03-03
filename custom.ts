@@ -4,7 +4,8 @@
 * Read more at https://arcade.makecode.com/blocks/custom
 */
 
-import sprk = SpriteKind
+const EnemyBullet = SpriteKind.create()
+const Bullet = SpriteKind.create()
 
 enum MyEnum {
     //% block="Bullet"
@@ -70,9 +71,9 @@ namespace bullets {
         let projectile = sprites.createProjectileFromSprite(myBullet, spr, Math.sin(angle * 0.0174533) * spd, Math.cos(angle * 0.0174533) * spd)
         
         if (e==0) {
-            projectile.setKind(sprk.Bullet)
+            projectile.setKind(SpriteKind.Bullet)
         } else {
-            projectile.setKind(sprk.EnemyBullet)
+            projectile.setKind(SpriteKind.EnemyBullet)
         }
     }
 
