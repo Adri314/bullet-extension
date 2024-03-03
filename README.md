@@ -34,21 +34,21 @@ Function shootBulletFromSpriteAtAngleWithSpeed:
 * spr: the sprite from which the bullet shoots
 * angle: angle of bullet (0 is down, 180 is up)
 * spd: the bullet speed
-* e: bullet kind
+* k: bullet kind. Drag kind block
 
 Function starBurstFromSprite:
 * myBullet: bullet image. Create a variable to store an image and use it here
 * spr: the sprite from which the bullet shoots
 * n: number of bullets
 * spd: the bullet speed
-* e: bullet kind
+* k: bullet kind. Drag kind block
 
 Function aimedShotFromSpriteToSpriteWithSpeed:
 * myBullet: bullet image. Create a variable to store an image and use it here
 * spr: the sprite from which the bullet shoots
 * spr2: the target sprite
 * spd: the bullet speed
-* e: bullet kind
+* k: bullet kind. Drag kind block
 
 
 
