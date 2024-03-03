@@ -27,6 +27,31 @@ This image may take a few minutes to refresh.
 
 ![A rendered view of the blocks](https://github.com/adri314/bullet-extension/raw/master/.github/makecode/blocks.png)
 
+## Parameter Explanation by function
+
+Function shootBulletFromSpriteAtAngleWithSpeed:
+* myBullet: bullet image. Create a variable to store an image and use it here
+* spr: the sprite from which the bullet shoots
+* angle: angle of bullet (0 is down, 180 is up)
+* spd: the bullet speed
+* e: bullet kind
+
+Function starBurstFromSprite:
+* myBullet: bullet image. Create a variable to store an image and use it here
+* spr: the sprite from which the bullet shoots
+* n: number of bullets
+* spd: the bullet speed
+* e: bullet kind
+
+Function aimedShotFromSpriteToSpriteWithSpeed:
+* myBullet: bullet image. Create a variable to store an image and use it here
+* spr: the sprite from which the bullet shoots
+* spr2: the target sprite
+* spd: the bullet speed
+* e: bullet kind
+
+
+
 #### Metadata (used for search, rendering)
 
 * for PXT/arcade
