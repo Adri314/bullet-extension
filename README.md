@@ -50,6 +50,10 @@ Function aimedShotFromSpriteToSpriteWithSpeed:
 * spd: the bullet speed
 * k: bullet kind. Drag kind block
 
+# Example: 
+
+![arcade-screenshot (1)](https://github.com/Adri314/bullet-extension/assets/34138145/056b190f-acb4-474d-af1f-9bdf22ad1585)
+
 
 
 #### Metadata (used for search, rendering)
