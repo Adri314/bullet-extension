@@ -36,6 +36,13 @@ This image may take a few minutes to refresh.
 * spd: the bullet speed
 * k: bullet kind. Drag kind block
 
+#### Examples
+
+![arcade-test-bullets (5)](https://github.com/Adri314/bullet-extension/assets/34138145/3d350a01-f392-4286-8a1b-b33eb0e3182c)
+![arcade-screenshot (7)](https://github.com/Adri314/bullet-extension/assets/34138145/5e392873-04af-4859-89c0-e0085cc251e3)
+![arcade-test-bullets (6)](https://github.com/Adri314/bullet-extension/assets/34138145/a6d8a33a-e0f8-4b98-9c43-8f733821bda8)
+![arcade-screenshot (8)](https://github.com/Adri314/bullet-extension/assets/34138145/83d0ce31-07b9-484c-ad64-2ee675a74538)
+
 ### Function aimedShotFromSpriteToSpriteWithSpeed:
 * myBullet: bullet image. Create a variable to store an image and use it here
 * spr: the sprite from which the bullet shoots
@@ -43,12 +50,22 @@ This image may take a few minutes to refresh.
 * spd: the bullet speed
 * k: bullet kind. Drag kind block
 
+#### Example
+
+![arcade-test-bullets (7)](https://github.com/Adri314/bullet-extension/assets/34138145/986dbec2-cd28-40a5-beb0-08b460a934c0)
+![arcade-screenshot (6)](https://github.com/Adri314/bullet-extension/assets/34138145/abeb71ce-1da0-4e97-a613-69e8d3a44d93)
+
 ### Function starBurstFromSprite:
 * myBullet: bullet image. Create a variable to store an image and use it here
 * spr: the sprite from which the bullet shoots
 * n: number of bullets
 * spd: the bullet speed
 * k: bullet kind. Drag kind block
+
+#### Example
+
+![arcade-test-bullets (9)](https://github.com/Adri314/bullet-extension/assets/34138145/64306052-058f-440b-bc31-e9e14cd30204)
+![arcade-screenshot (5)](https://github.com/Adri314/bullet-extension/assets/34138145/c9c96d0c-6552-40e0-a59a-cacdabf6ce25)
 
 ### Function fanBurstFromSprite:
 * myBullet: bullet image. Create a variable to store an image and use it here
@@ -59,12 +76,14 @@ This image may take a few minutes to refresh.
 * spd: the bullet speed
 * k: bullet kind. Drag kind block
 
-## Example: 
+#### Example
 
+![arcade-test-bullets (10)](https://github.com/Adri314/bullet-extension/assets/34138145/8c2a74bc-56b4-420b-9935-d30d4b27772e)
+![arcade-screenshot (4)](https://github.com/Adri314/bullet-extension/assets/34138145/de050d64-266f-45f9-adbe-b52f9fbe6583)
+
+## Example with multiple bullet patterns: 
 
 ![arcade-screenshot (3)](https://github.com/Adri314/bullet-extension/assets/34138145/6fc82f06-2d5e-42f8-aafd-0f27a6a59a17)
-
-
 
 #### Metadata (used for search, rendering)
 
